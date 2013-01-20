@@ -2,7 +2,11 @@
 Partial Class _Default
     Inherits System.Web.UI.Page
 
-    Protected Sub Button1_Click(sender As Object, e As System.EventArgs) Handles Button1.Click
+    Protected Sub Button1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Button1.Click
         Label1.Text = "hola leo!"
+    End Sub
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        'Hola Mundo
     End Sub
 End Class
