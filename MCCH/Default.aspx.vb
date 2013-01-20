@@ -7,6 +7,6 @@ Partial Class _Default
     End Sub
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'Hola Mundo
+        'Adios Mundo Cruel
     End Sub
 End Class
